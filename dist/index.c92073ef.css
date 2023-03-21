@@ -66,4 +66,20 @@ nav a:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 650px) {
+  nav {
+    width: 98vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    display: flex;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=index.c92073ef.css.map */

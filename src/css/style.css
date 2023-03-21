@@ -72,3 +72,19 @@ nav a:hover {
   color: var(--bg);
   background-color: var(--dark);
 }
+
+
+@media all and (max-width: 650px) {
+  nav {
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+  }
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}
