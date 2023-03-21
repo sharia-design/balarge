@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 13px;
+}
+
+:root {
+	--color-1: #111;
+  --dark: #202020;  
+  --bg: #EAE7DD;
+}
+
+
+body {
+	margin: 0;
+	color: var(--dark);
+	/* background-color: var(--bg); */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  background-image: url(../img/bg-1.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+}
+
+.logo {
+  margin: 11vh auto;
+}
+
+
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+nav {
+  margin-top: 22px;
+  display: flex;
+  gap: 56px;
+  padding: 22px 22px;
+  border: 2px solid var(--dark);
+  background-color: rgba(234, 231, 221, .92);
+}
+
+nav a {
+  font-size: 2rem;
+  color: var(--dark);
+  padding: 11px;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px solid var(--dark);
+  transition: .55s ease-in-out;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: var(--bg);
+  background-color: var(--dark);
+}

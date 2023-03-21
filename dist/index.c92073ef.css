@@ -1,0 +1,69 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #111;
+  --dark: #202020;
+  --bg: #eae7dd;
+  font-size: 13px;
+}
+
+body {
+  color: var(--dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg-1.1027af36.jpg");
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  margin: 11vh auto;
+}
+
+h1 {
+  font-size: 69px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+nav {
+  border: 2px solid var(--dark);
+  background-color: #eae7ddeb;
+  gap: 56px;
+  margin-top: 22px;
+  padding: 22px;
+  display: flex;
+}
+
+nav a {
+  color: var(--dark);
+  border: 1px solid var(--dark);
+  border-radius: 3px;
+  padding: 11px;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all .55s ease-in-out;
+}
+
+nav a:hover {
+  color: var(--bg);
+  background-color: var(--dark);
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
